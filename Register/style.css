@@ -1,0 +1,205 @@
+.register {
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.register .div {
+    background-color: #333333;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+}
+
+.register .text-wrapper {
+    height: 49px;
+    top: 282px;
+    left: 322px;
+    font-family: "General Sans-Medium", Helvetica;
+    font-weight: 500;
+    font-size: 36px;
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.register .overlap-group {
+    top: 504px;
+    left: 191px;
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    border-radius: 8px;
+    }
+
+.register .text-wrapper-2 {
+    position: absolute;
+    height: 22px;
+    top: 15px;
+    left: 25px;
+    font-family: "General Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #888888;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.register .rectangle {
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #888888;
+}
+
+.register .overlap {
+    top: 399px;
+    left: 192px;
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    border-radius: 8px;
+}
+
+.register .text-wrapper-3 {
+    position: absolute;
+    height: 22px;
+    top: 15px;
+    left: 24px;
+    font-family: "General Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #888888;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.register .overlap-2 {
+    top: 609px;
+    left: 191px;
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    border-radius: 8px;
+}
+
+.register .text-wrapper-4 {
+    height: 22px;
+    top: 474px;
+    left: 189px;
+    font-family: "General Sans-Semibold", Helvetica;
+    font-weight: 400;
+    font-size: 16px;
+    position: absolute;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.register .text-wrapper-5 {
+    position: absolute;
+    height: 22px;
+    top: 369px;
+    left: 192px;
+    font-family: "General Sans-Semibold", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.register .text-wrapper-6 {
+    position: absolute;
+    height: 22px;
+    top: 579px;
+    left: 190px;
+    font-family: "General Sans-Semibold", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.register .div-wrapper {
+    top: 700px;
+    left: 191px;
+    background-color: #bb86fc;
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    border-radius: 8px;
+}
+
+.register .text-wrapper-7 {
+    position: absolute;
+    height: 27px;
+    top: 13px;
+    left: 163px;
+    font-family: "General Sans-Semibold", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.register .buku-in {
+    position: absolute;
+    top: 43px;
+    left: 110px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 43.2px;
+    white-space: nowrap;
+}
+
+.register .span {
+    color: #ffffff;
+}
+
+.register .text-wrapper-8 {
+    color: #bb86fc;
+}
+
+.register .image {
+    position: absolute;
+    width: 684px;
+    height: 1024px;
+    top: 0;
+    left: 756px;
+}
+
+.register .already-have-account {
+    position: absolute;
+    height: 19px;
+    top: 768px;
+    left: 275px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}

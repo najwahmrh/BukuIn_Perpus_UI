@@ -1,0 +1,1130 @@
+.laporan {
+  background-color: #333333;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.laporan .overlap-wrapper {
+  background-color: #333333;
+  width: 1440px;
+  height: 1024px;
+}
+
+.laporan .overlap {
+  position: relative;
+  height: 983px;
+}
+
+.laporan .overlap-group {
+  position: absolute;
+  width: 1030px;
+  height: 718px;
+  top: 265px;
+  left: 380px;
+  background-color: #444444;
+  border-radius: 8px;
+}
+
+.laporan .div {
+  position: absolute;
+  width: 160px;
+  height: 33px;
+  top: 31px;
+  left: 365px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #ffffff;
+}
+
+.laporan .text-wrapper {
+  position: absolute;
+  top: 8px;
+  left: 39px;
+  font-family: "Rubik-Medium", Helvetica;
+  font-weight: 500;
+  color: #888888;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.laporan .vector {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 8px;
+  left: 14px;
+}
+
+.laporan .frame {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 23px;
+  position: absolute;
+  top: 30px;
+  left: 57px;
+  background-color: #888888;
+  border-radius: 20px;
+}
+
+.laporan .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Rubik-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--x-100);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-3 {
+  left: 315px;
+  position: absolute;
+  top: 101px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-4 {
+  position: absolute;
+  top: 101px;
+  left: 59px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-5 {
+  top: 169px;
+  left: 324px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-6 {
+  position: absolute;
+  top: 169px;
+  left: 795px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-7 {
+  top: 209px;
+  left: 324px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-8 {
+  top: 249px;
+  left: 324px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-9 {
+  top: 289px;
+  left: 324px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-10 {
+  top: 210px;
+  left: 821px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-11 {
+  top: 289px;
+  left: 821px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-12 {
+  top: 249px;
+  left: 821px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-13 {
+  top: 249px;
+  left: 619px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-14 {
+  top: 290px;
+  left: 619px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-15 {
+  top: 208px;
+  left: 583px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-16 {
+  top: 169px;
+  left: 585px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-17 {
+  top: 169px;
+  position: absolute;
+  left: 59px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-18 {
+  top: 209px;
+  position: absolute;
+  left: 59px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-19 {
+  top: 249px;
+  position: absolute;
+  left: 59px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-20 {
+  top: 289px;
+  position: absolute;
+  left: 59px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-21 {
+  position: absolute;
+  top: 101px;
+  left: 689px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-22 {
+  left: 570px;
+  position: absolute;
+  top: 101px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-23 {
+  position: absolute;
+  top: 101px;
+  left: 26px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-24 {
+  position: absolute;
+  top: 101px;
+  left: 184px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .overlap-2 {
+  position: absolute;
+  width: 52px;
+  height: 18px;
+  top: 101px;
+  left: 929px;
+}
+
+.laporan .text-wrapper-25 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #444444;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-26 {
+  position: absolute;
+  top: 0;
+  left: 9px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-27 {
+  position: absolute;
+  top: 101px;
+  left: 803px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-28 {
+  top: 169px;
+  left: 723px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-29 {
+  top: 210px;
+  left: 723px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-30 {
+  top: 249px;
+  left: 723px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-31 {
+  top: 289px;
+  left: 723px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-32 {
+  top: 169px;
+  left: 28px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-33 {
+  top: 209px;
+  left: 28px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-34 {
+  top: 249px;
+  left: 28px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-35 {
+  top: 289px;
+  left: 28px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-36 {
+  position: absolute;
+  top: 169px;
+  left: 184px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-37 {
+  position: absolute;
+  top: 209px;
+  left: 184px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-38 {
+  position: absolute;
+  top: 249px;
+  left: 184px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-39 {
+  position: absolute;
+  top: 289px;
+  left: 184px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .overlap-3 {
+  position: absolute;
+  width: 113px;
+  height: 30px;
+  top: 164px;
+  left: 905px;
+  border-radius: 50px;
+}
+
+.laporan .img {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 2px;
+  left: 34px;
+}
+
+.laporan .div-wrapper {
+  display: flex;
+  width: 113px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 7px 13px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f7000033;
+  border-radius: 50px;
+}
+
+.laporan .text-wrapper-40 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Rubik-Medium", Helvetica;
+  font-weight: 500;
+  color: #eb5757;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 15.6px;
+  white-space: nowrap;
+}
+
+.laporan .overlap-4 {
+  position: absolute;
+  width: 113px;
+  height: 30px;
+  top: 281px;
+  left: 905px;
+  border-radius: 50px;
+}
+
+.laporan .frame-2 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 3px;
+  left: 34px;
+}
+
+.laporan .frame-3 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 7px 13px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #f7000033;
+  border-radius: 50px;
+}
+
+.laporan .text-wrapper-41 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #eb5757;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 15.6px;
+  white-space: nowrap;
+}
+
+.laporan .frame-4 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 440px;
+  left: 937px;
+}
+
+.laporan .overlap-5 {
+  position: absolute;
+  width: 113px;
+  height: 30px;
+  top: 203px;
+  left: 905px;
+  border-radius: 50px;
+}
+
+.laporan .frame-5 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 7px 13px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #03ab0033;
+  border-radius: 50px;
+}
+
+.laporan .text-wrapper-42 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #27ae60;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 15.6px;
+  white-space: nowrap;
+}
+
+.laporan .frame-6 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 323px;
+  left: 939px;
+}
+
+.laporan .frame-7 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 479px;
+  left: 937px;
+}
+
+.laporan .overlap-6 {
+  position: absolute;
+  width: 113px;
+  height: 30px;
+  top: 242px;
+  left: 905px;
+  border-radius: 50px;
+}
+
+.laporan .frame-8 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 362px;
+  left: 939px;
+}
+
+.laporan .frame-9 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 518px;
+  left: 937px;
+}
+
+.laporan .frame-10 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 401px;
+  left: 939px;
+}
+
+.laporan .overlap-7 {
+  position: absolute;
+  width: 133px;
+  height: 33px;
+  top: 31px;
+  left: 202px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #ffffff;
+}
+
+.laporan .chevron-down {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 10px;
+  left: 14px;
+}
+
+.laporan .text-wrapper-43 {
+  position: absolute;
+  width: 85px;
+  height: 21px;
+  top: 4px;
+  left: 36px;
+  font-family: "Rubik-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.laporan .line {
+  width: 884px;
+  height: 1px;
+  top: 136px;
+  left: 75px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.laporan .text-wrapper-44 {
+  position: absolute;
+  top: 30px;
+  left: 691px;
+  font-family: "Rubik-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 31.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-45 {
+  top: 248px;
+  left: 489px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-46 {
+  top: 289px;
+  left: 489px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-47 {
+  top: 207px;
+  left: 453px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-48 {
+  top: 168px;
+  left: 455px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-49 {
+  position: absolute;
+  top: 100px;
+  left: 440px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.laporan .overlap-8 {
+  position: absolute;
+  width: 1440px;
+  height: 983px;
+  top: 0;
+  left: 0;
+}
+
+.laporan .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 178px;
+  top: 0;
+  left: 0;
+  background-color: #bb86fc;
+}
+
+.laporan .text-wrapper-50 {
+  top: 121px;
+  left: 380px;
+  font-family: "Rubik-Medium", Helvetica;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 41.6px;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.laporan .rectangle-2 {
+  position: absolute;
+  width: 1440px;
+  height: 84px;
+  top: 0;
+  left: 0;
+  background-color: #bb86fc;
+  box-shadow: 0px 2px 30px #00000040;
+}
+
+.laporan .p {
+  position: absolute;
+  top: 29px;
+  left: 95px;
+  font-family: "Rubik-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 26.0px;
+  white-space: nowrap;
+}
+
+.laporan .line-2 {
+  width: 1px;
+  height: 25px;
+  top: 30px;
+  left: 80px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.laporan .reading {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 25px;
+  left: 30px;
+  object-fit: cover;
+}
+
+.laporan .rectangle-3 {
+  position: absolute;
+  width: 315px;
+  height: 861px;
+  top: 122px;
+  left: 30px;
+  background-color: #444444;
+  border-radius: 10px;
+}
+
+.laporan .text-wrapper-51 {
+  position: absolute;
+  top: 485px;
+  left: 107px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 26.0px;
+  white-space: nowrap;
+}
+
+.laporan .borrow-book {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 481px;
+  left: 65px;
+  object-fit: cover;
+}
+
+.laporan .text-wrapper-52 {
+  top: 439px;
+  left: 107px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 26.0px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.laporan .text-wrapper-53 {
+  top: 393px;
+  left: 107px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 26.0px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.laporan .address-book {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 435px;
+  left: 65px;
+  object-fit: cover;
+}
+
+.laporan .text-wrapper-54 {
+  position: absolute;
+  top: 264px;
+  left: 119px;
+  font-family: "Rubik-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 26.0px;
+  white-space: nowrap;
+}
+
+.laporan .rectangle-4 {
+  position: absolute;
+  width: 120px;
+  height: 22px;
+  top: 295px;
+  left: 127px;
+  background-color: #6fcf9733;
+  border-radius: 20px;
+}
+
+.laporan .text-wrapper-55 {
+  position: absolute;
+  top: 295px;
+  left: 139px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #6fcf97;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 19.5px;
+  white-space: nowrap;
+}
+
+.laporan .rectangle-5 {
+  position: absolute;
+  width: 283px;
+  height: 47px;
+  top: 522px;
+  left: 42px;
+  background-color: #bb86fcbf;
+  border-radius: 20px;
+}
+
+.laporan .text-wrapper-56 {
+  top: 531px;
+  left: 107px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26.0px;
+  position: absolute;
+  color: #ffffff;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.laporan .document {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 527px;
+  left: 65px;
+  object-fit: cover;
+}
+
+.laporan .element {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 178px;
+  left: 155px;
+  object-fit: cover;
+}
+
+.laporan .element-2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 17px;
+  left: 1338px;
+  object-fit: cover;
+}
+
+.laporan .book {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 389px;
+  left: 65px;
+  object-fit: cover;
+}
+
+.laporan .overlap-9 {
+  position: absolute;
+  width: 178px;
+  height: 47px;
+  top: 198px;
+  left: 378px;
+  background-color: #444444;
+  border-radius: 30px;
+}
+
+.laporan .text-wrapper-57 {
+  top: 7px;
+  left: 12px;
+  font-family: "Rubik-Medium", Helvetica;
+  font-weight: 500;
+  color: #bb86fc;
+  font-size: 24px;
+  line-height: 31.2px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}

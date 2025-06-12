@@ -1,0 +1,754 @@
+.data-anggota {
+  background-color: #333333;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.data-anggota .overlap-wrapper {
+  background-color: #333333;
+  width: 1440px;
+  height: 1024px;
+}
+
+.data-anggota .overlap {
+  position: relative;
+  height: 983px;
+}
+
+.data-anggota .overlap-group {
+  position: absolute;
+  width: 1030px;
+  height: 718px;
+  top: 265px;
+  left: 380px;
+  background-color: #444444;
+  border-radius: 8px;
+}
+
+.data-anggota .div {
+  position: absolute;
+  width: 160px;
+  height: 33px;
+  top: 33px;
+  left: 812px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #ffffff;
+}
+
+.data-anggota .text-wrapper {
+  position: absolute;
+  top: 8px;
+  left: 39px;
+  font-family: "Rubik-Medium", Helvetica;
+  font-weight: 500;
+  color: #888888;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.data-anggota .vector {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  top: 8px;
+  left: 14px;
+}
+
+.data-anggota .frame {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 10px 23px;
+  position: absolute;
+  top: 30px;
+  left: 57px;
+  background-color: #888888;
+  border-radius: 20px;
+}
+
+.data-anggota .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1.00px;
+  font-family: "Rubik-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--x-100);
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-3 {
+  position: absolute;
+  top: 101px;
+  left: 517px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-4 {
+  position: absolute;
+  top: 101px;
+  left: 90px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .p {
+  position: absolute;
+  top: 169px;
+  left: 464px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-5 {
+  position: absolute;
+  top: 209px;
+  left: 464px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-6 {
+  position: absolute;
+  top: 248px;
+  left: 464px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-7 {
+  position: absolute;
+  top: 289px;
+  left: 465px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-8 {
+  position: absolute;
+  top: 169px;
+  left: 690px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-9 {
+  top: 211px;
+  position: absolute;
+  left: 690px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-10 {
+  top: 249px;
+  position: absolute;
+  left: 690px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-11 {
+  top: 289px;
+  position: absolute;
+  left: 690px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-12 {
+  position: absolute;
+  width: 206px;
+  top: 169px;
+  left: 90px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.data-anggota .text-wrapper-13 {
+  position: absolute;
+  width: 206px;
+  top: 209px;
+  left: 90px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+}
+
+.data-anggota .text-wrapper-14 {
+  position: absolute;
+  top: 249px;
+  left: 90px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-15 {
+  position: absolute;
+  top: 289px;
+  left: 90px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-16 {
+  position: absolute;
+  top: 101px;
+  left: 698px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-17 {
+  position: absolute;
+  top: 101px;
+  left: 57px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-18 {
+  position: absolute;
+  top: 101px;
+  left: 363px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-19 {
+  position: absolute;
+  top: 102px;
+  left: 854px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-20 {
+  position: absolute;
+  top: 169px;
+  left: 59px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-21 {
+  top: 209px;
+  position: absolute;
+  left: 59px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-22 {
+  top: 249px;
+  position: absolute;
+  left: 59px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-23 {
+  top: 289px;
+  position: absolute;
+  left: 59px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-24 {
+  position: absolute;
+  top: 169px;
+  left: 355px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-25 {
+  top: 209px;
+  left: 355px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-26 {
+  top: 249px;
+  left: 356px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-27 {
+  top: 289px;
+  left: 355px;
+  position: absolute;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 18.2px;
+  white-space: nowrap;
+}
+
+.data-anggota .img {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 167px;
+  left: 864px;
+}
+
+.data-anggota .frame-2 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 285px;
+  left: 864px;
+}
+
+.data-anggota .frame-3 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 207px;
+  left: 864px;
+}
+
+.data-anggota .frame-4 {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 246px;
+  left: 864px;
+}
+
+.data-anggota .overlap-2 {
+  position: absolute;
+  width: 133px;
+  height: 33px;
+  top: 31px;
+  left: 207px;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: #ffffff;
+}
+
+.data-anggota .chevron-down {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 10px;
+  left: 14px;
+}
+
+.data-anggota .text-wrapper-28 {
+  position: absolute;
+  width: 85px;
+  height: 21px;
+  top: 4px;
+  left: 36px;
+  font-family: "Rubik-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.data-anggota .line {
+  width: 884px;
+  height: 1px;
+  top: 136px;
+  left: 75px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.data-anggota .overlap-3 {
+  position: absolute;
+  width: 1440px;
+  height: 983px;
+  top: 0;
+  left: 0;
+}
+
+.data-anggota .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 178px;
+  top: 0;
+  left: 0;
+  background-color: #bb86fc;
+}
+
+.data-anggota .text-wrapper-29 {
+  position: absolute;
+  top: 121px;
+  left: 380px;
+  font-family: "Rubik-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 41.6px;
+  white-space: nowrap;
+}
+
+.data-anggota .rectangle-2 {
+  position: absolute;
+  width: 1440px;
+  height: 84px;
+  top: 0;
+  left: 0;
+  background-color: #bb86fc;
+  box-shadow: 0px 2px 30px #00000040;
+}
+
+.data-anggota .text-wrapper-30 {
+  position: absolute;
+  top: 29px;
+  left: 95px;
+  font-family: "Rubik-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 26.0px;
+  white-space: nowrap;
+}
+
+.data-anggota .line-2 {
+  width: 1px;
+  height: 25px;
+  top: 30px;
+  left: 80px;
+  position: absolute;
+  object-fit: cover;
+}
+
+.data-anggota .reading {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 25px;
+  left: 30px;
+  object-fit: cover;
+}
+
+.data-anggota .rectangle-3 {
+  position: absolute;
+  width: 315px;
+  height: 861px;
+  top: 122px;
+  left: 30px;
+  background-color: #444444;
+  border-radius: 10px;
+}
+
+.data-anggota .text-wrapper-31 {
+  position: absolute;
+  top: 485px;
+  left: 107px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 26.0px;
+  white-space: nowrap;
+}
+
+.data-anggota .borrow-book {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 481px;
+  left: 65px;
+  object-fit: cover;
+}
+
+.data-anggota .text-wrapper-32 {
+  position: absolute;
+  top: 260px;
+  left: 118px;
+  font-family: "Rubik-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 26.0px;
+  white-space: nowrap;
+}
+
+.data-anggota .rectangle-4 {
+  position: absolute;
+  width: 120px;
+  height: 22px;
+  top: 295px;
+  left: 127px;
+  background-color: #6fcf9733;
+  border-radius: 20px;
+}
+
+.data-anggota .text-wrapper-33 {
+  position: absolute;
+  top: 295px;
+  left: 139px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #6fcf97;
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 19.5px;
+  white-space: nowrap;
+}
+
+.data-anggota .text-wrapper-34 {
+  position: absolute;
+  top: 531px;
+  left: 107px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 26.0px;
+  white-space: nowrap;
+}
+
+.data-anggota .document {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 527px;
+  left: 65px;
+  object-fit: cover;
+}
+
+.data-anggota .element {
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  top: 178px;
+  left: 155px;
+  object-fit: cover;
+}
+
+.data-anggota .element-2 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 17px;
+  left: 1338px;
+  object-fit: cover;
+}
+
+.data-anggota .book {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 389px;
+  left: 65px;
+  object-fit: cover;
+}
+
+.data-anggota .text-wrapper-35 {
+  position: absolute;
+  top: 393px;
+  left: 107px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 26.0px;
+  white-space: nowrap;
+}
+
+.data-anggota .rectangle-5 {
+  position: absolute;
+  width: 283px;
+  height: 47px;
+  top: 431px;
+  left: 42px;
+  background-color: #bb86fcbf;
+  border-radius: 20px;
+}
+
+.data-anggota .text-wrapper-36 {
+  top: 439px;
+  left: 107px;
+  font-family: "Rubik-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 26.0px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.data-anggota .address-book {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 435px;
+  left: 65px;
+  object-fit: cover;
+}
+
+.data-anggota .div-wrapper {
+  position: absolute;
+  width: 203px;
+  height: 47px;
+  top: 198px;
+  left: 378px;
+  background-color: #444444;
+  border-radius: 30px;
+}
+
+.data-anggota .text-wrapper-37 {
+  top: 7px;
+  left: 22px;
+  font-family: "Rubik-Medium", Helvetica;
+  font-weight: 500;
+  color: #bb86fc;
+  font-size: 24px;
+  line-height: 31.2px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}

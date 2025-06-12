@@ -1,0 +1,225 @@
+.login-page {
+    background-color: #333333;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.login-page .div {
+    background-color: #333333;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+    }
+
+.login-page .text-wrapper {
+    position: absolute;
+    height: 49px;
+    top: 280px;
+    left: 343px;
+    font-family: "General Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.login-page .welcome-back-enter {
+    position: absolute;
+    height: 44px;
+    top: 339px;
+    left: 211px;
+    font-family: "General Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #888888;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.login-page .overlap {
+    top: 462px;
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    left: 187px;
+    border-radius: 8px;
+}
+
+.login-page .text-wrapper-2 {
+    position: absolute;
+    height: 22px;
+    top: 15px;
+    left: 24px;
+    font-family: "General Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #888888;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.login-page .rectangle {
+    width: 400px;
+    height: 55px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #888888;
+}
+
+.login-page .overlap-group {
+    top: 567px;
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    left: 187px;
+    border-radius: 8px;
+}
+
+.login-page .text-wrapper-3 {
+    position: absolute;
+    height: 22px;
+    top: 638px;
+    left: 454px;
+    font-family: "General Sans-Medium", Helvetica;
+    font-weight: 500;
+    color: #888888;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.login-page .text-wrapper-4 {
+    position: absolute;
+    height: 22px;
+    top: 432px;
+    left: 187px;
+    font-family: "General Sans-Semibold", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.login-page .text-wrapper-5 {
+    position: absolute;
+    height: 22px;
+    top: 638px;
+    left: 224px;
+    font-family: "General Sans-Semibold", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.login-page .text-wrapper-6 {
+    position: absolute;
+    height: 22px;
+    top: 537px;
+    left: 186px;
+    font-family: "General Sans-Semibold", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.login-page .rectangle-2 {
+    width: 30px;
+    height: 30px;
+    top: 635px;
+    left: 187px;
+    position: absolute;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: #888888;
+}
+
+.login-page .div-wrapper {
+    top: 688px;
+    background-color: #bb86fc;
+    position: absolute;
+    width: 400px;
+    height: 55px;
+    left: 187px;
+    border-radius: 8px;
+}
+
+.login-page .text-wrapper-7 {
+    position: absolute;
+    height: 27px;
+    top: 13px;
+    left: 168px;
+    font-family: "General Sans-Semibold", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.login-page .buku-in {
+    position: absolute;
+    top: 41px;
+    left: 106px;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 43.2px;
+    white-space: nowrap;
+}
+
+.login-page .span {
+    color: #ffffff;
+}
+
+.login-page .text-wrapper-8 {
+    color: #000000;
+}
+
+.login-page .text-wrapper-9 {
+    color: #bb86fc;
+}
+
+.login-page .image {
+    position: absolute;
+    width: 684px;
+    height: 1024px;
+    top: 0;
+    left: 756px;
+}
+
+.login-page .don-t-have-account {
+    position: absolute;
+    height: 19px;
+    top: 756px;
+    left: 276px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-weight: 600;
+    color: transparent;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    }
